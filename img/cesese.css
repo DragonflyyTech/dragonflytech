@@ -1,0 +1,315 @@
+/*
+div{
+    outline: solid 1px rgb(0, 217, 255);
+}
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+#fondo{
+    width: 99%;
+    height: 800px;
+    background-color: aqua;
+    position: absolute;
+    background-image: url("https://w.wallhaven.cc/full/w8/wallhaven-w85vqx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+body{
+    background-color: #DDD2CE;
+}
+#cabeza{
+    height: 80px;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    right: 10px;
+    background-color: #454d40a8;
+    backdrop-filter:blur(10px);
+     border-radius: 20px;
+
+}
+#tcabeza{
+    width: 90%;
+}
+
+.btn{
+    width: 5%;
+    transition:.5s ease;
+}
+.btn:hover{
+    width: 6%;
+    transition:.2s ease;
+}
+
+#logo{
+    width: 100%;
+    height: 725px;
+    position: relative;
+    top:100px ;
+}
+
+#fondo_1{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#imglogo{
+    width: 1000px;
+    /*transform: rotate(90deg);*/
+}
+
+#cuerpo{
+    width: 99%;
+    height: 2000px;
+    position: absolute;
+    top: 900px;
+    /*background: linear-gradient(to bottom, #ffffff00,#000000 15%,#000000);*/
+    background-color: #DDD2CE;
+}
+
+    
+#objG{
+    float: left; 
+    width: 100%; 
+    padding: auto;
+    height: 700px;
+    text-align: center; 
+    position: relative;
+}
+
+#objG p{
+    font-size: 30px;
+}
+
+#objG h1{
+    font-size: 50px;
+}
+#obetivo_g{
+    color: #000000;
+    transition: .5s ease;
+}
+#obetivo_g:hover{
+    background-color:#525F41;
+    color: #ffffff;
+}
+
+#politicas{
+    float: right;
+    width: 100%;
+    height: 500px;
+    padding: auto; 
+    position: relative; 
+}
+
+#politicas h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#p1{
+    height: 400px;
+    width: 38%;
+    position: relative;
+    float: right;
+    right: 5%;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 20px;
+    color:#000000;
+    transition: .5s ease;
+}
+
+#p1:hover h2{
+    color:#ffffff00 ;
+    transition: .5s ease;
+}
+#p1:hover{
+    background-color: #DDD2CE;
+}
+
+#politicas h2{
+    position: absolute;
+    font-size: 60px;
+    color:#000000;
+}
+
+#p2{
+    height: 400px;
+    width: 38%;
+    position: relative;
+    float: left;
+    left: 5%;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color:#000000;
+    transition: .5s ease;
+}
+#p2:hover h2{
+    color:#ffffff00;
+    transition: .5s ease;
+}
+#p2:hover{
+    background-color: #DDD2CE;
+}
+
+#valores{
+    float: left; 
+    width: 97%; 
+    height: 500px;
+    padding: auto;
+    position: relative;
+    margin-top: 15em;
+    margin-bottom: 10em;
+    text-align: justify;
+    color: #504215;
+}
+
+#valores li:hover{
+    text-shadow:#504215 0 0 1px;
+}
+
+#valoresss{
+    text-align: center;
+    font-size: 50px;
+}
+
+li span{
+    font-weight:900;
+    
+    color: #B7740B;
+}
+
+#mision{
+    float: left; 
+    width: 98%; 
+    height: auto;
+    padding: 1%;
+    position: relative;
+    text-align: center;
+}
+
+#mision1{
+    float: right;
+    width: 40%;
+    height: 400px;
+    padding: 3%;
+    right: 40px;
+    position: relative;
+    background-color: #dda15e;
+    font-size: 20px; 
+    border-radius: 5px;
+    transition:.5s ease;
+}
+
+#mision1:hover{
+    box-shadow: 0px 0px 100px #bc6c25;
+    transition: .5s ease;
+}
+
+#vision{
+    float: left; 
+    width: 40%; 
+    height: 400px;
+    padding: 3%;
+    left: 40px;
+    background-color: #dda15e;
+    position: relative;
+    font-size: 20px;
+    border-radius: 5px;
+    transition:.5s ease;
+}
+
+#vision:hover{
+    box-shadow: 0px 0px 50px #bc6c25;
+    transition: .5s ease;
+}
+
+#foter{
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color:#777E5F;
+    margin-top: 3em;
+}
+
+.letra{
+    color: aliceblue;
+    font-family:century gothic;
+    font-size: 14px;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+li{
+    list-style:none;
+}
+
+#politicas li{
+    list-style: circle;
+}
+
+#integrantes{
+    width: 100%;
+    height: 1000px;
+    background-color: #454D40;
+    position: relative;
+    float: left;
+    margin-top: 2em;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.bca{
+    /*outline: solid 1px rgb(0, 217, 255);*/
+    width: 100%;
+    height: 500px;
+}
+
+.persona{
+    border-radius: 10px;
+    width: 400px;
+    height: 410px;
+    background-color: #BAB4A8;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #504215;
+}
+.contenido_int{
+    width: 500px;
+    height: 500px;
+    background-color: #DDD2CE;
+}
+.foto{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: #BAB4A8;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#454D40;
+    border-radius: 10px;
+}
+
+
+.alin{
+    text-align: justify;
+}
